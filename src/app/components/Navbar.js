@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className="xl:w-2/3 lg:w-2/3 md:w-11/12">
           <div
             className={`pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "xl:p-12 lg:p-12 md:p-0 sm:p-12 p-0 block" : "hidden"
+              navbar ? "xl:p-0 lg:p-0 md:p-0 sm:p-0 p-0 block" : "hidden"
             }`}
           >
             <div
@@ -87,7 +87,7 @@ const Navbar = () => {
                    md:hover:bg-transparent
                    "
                 >
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/"  onClick={() => setNavbar(!navbar)}>
                     Features
                   </Link>
                 </li>
