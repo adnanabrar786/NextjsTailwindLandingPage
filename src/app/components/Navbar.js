@@ -73,7 +73,7 @@ const Navbar = () => {
                    md:hover:bg-transparent
                    "
                 >
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
@@ -101,8 +101,7 @@ const Navbar = () => {
                    md:hover:bg-transparent
                    "
                 >
-                  {" "}
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/"  onClick={() => setNavbar(!navbar)}>
                     Industries
                   </Link>
                 </li>
@@ -116,7 +115,7 @@ const Navbar = () => {
                    md:hover:bg-transparent
                    "
                 >
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/"  onClick={() => setNavbar(!navbar)}>
                     Pricing
                   </Link>
                 </li>
@@ -130,7 +129,7 @@ const Navbar = () => {
                    md:hover:bg-transparent
                    "
                 >
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/"  onClick={() => setNavbar(!navbar)}>
                     Pricing
                   </Link>
                 </li>
@@ -141,7 +140,7 @@ const Navbar = () => {
                 text-black
                  py-4 px-6 text-center  xl:hover:text-black lg:hover:text-black md:hover:text-black hover:text-blue-700 md:hover:bg-transparent"
                 >
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/"  onClick={() => setNavbar(!navbar)}>
                     <button
                       style={{ backgroundColor: "#008CBA" }}
                       className="text-sm hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
